@@ -1,0 +1,33 @@
+ul,span,input{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    outline: medium;
+}
+ul,li{ padding:0;margin:0;list-style:none}
+input{
+    font-size: .44rem;
+    text-indent: 0;
+    background: transparent;
+    border: 0 none;
+    resize:none;
+    outline:none;  /*清除选中效果的默认蓝色边框 */
+    -webkit-appearance:none;  /*清除浏览器默认的样式 */
+    line-height: normal;   //光标问题
+}
+.btn-Container{
+    width: 100%;
+    bottom:50px;
+    position:fixed;
+}
+.btnBottom{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E64461;
+    border-radius: 12px;
+    color: #ADCCE8;
+    font-size: .44rem;
+}
