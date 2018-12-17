@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="isLoginContainer">
+        <div class="titleName">
+            <div class="headPic">
+            </div>
+            <div class="nameUl">
+                <ul>
+                    <li>张三丰</li>
+                    <li><span>能量值：<span class="energi"></span></span><span class="rightIcon"></span></li>
+                    <li>总金豆：<span class="colorNum1 boldNum">5000</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="Beans bottom-border">
+            <div class="beansFlex">
+                <ul class="beansUl">
+                    <li>
+                        <p class="colorNum1">1000</p>
+                        <p>剩余金豆</p>
+                    </li>
+                    <li>
+                        <p class="colorNum2">1000</p>
+                        <p>剩余积分</p>
+                    </li>
+                    <li>
+                        <p class="colorNum1">1000</p>
+                        <p>以提金豆</p>
+                    </li>
+                    <li>
+                        <p class="colorNum2">1000</p>
+                        <p>已转积分</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="singDateBtn">
+                <span>签到</span>
+            </div>
+        </div>
+        <div class="extraBox bottom-border">
+            <ul class="flex-normal">
+                <li><span class="circle-flex"></span><span class="little-font">金豆明细</span></li>
+                <li><span class="circle-flex"></span><span class="little-font">能量明细</span></li>
+                <li><span class="circle-flex"></span><span class="little-font">银行卡</span></li>
+                <li><span class="circle-flex"></span><span class="little-font">提款说明</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<style lang="scss">
+    .isLoginContainer{
+        font-size: .44rem;
+    }
+    .isLoginContainer .titleName{
+        width: 100%;
+        height: 100px;
+        border-bottom: 1px solid #EEEEEE ;
+        position: relative;
+        display: flex;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .isLoginContainer .titleName .headPic{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid #EEEEEE;
+    }
+    .isLoginContainer .titleName .nameUl{
+        margin-left: 20px;
+    }
+
+    .isLoginContainer .titleName .nameUl li:first-child{
+        font-weight: bold;
+    }
+    .isLoginContainer .titleName .nameUl li:not(:first-child){
+        font-size: .35rem;
+        margin-top: 3px;
+    }
+    .isLoginContainer .titleName .nameUl .energi{
+
+    }
+    /*中间层*/
+    .isLoginContainer .Beans{
+        width: 100%;
+        height:3.25rem;
+        position: relative;
+    }
+    .isLoginContainer .Beans .beansFlex{
+        width: 50%;
+        float: left;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .isLoginContainer .Beans .beansFlex .beansUl{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .isLoginContainer .Beans .beansUl li{
+        width: 50%;
+    }
+    .isLoginContainer .Beans .beansUl li p:nth-child(2){
+        font-size: .35rem;
+    }
+    .singDateBtn{
+        width: 20%;
+        float: right;
+        margin-right: .95rem;
+    }
+    .singDateBtn span{
+        width: 100%;
+        background: #E64461;
+        display: block;
+        border-radius: 7px;
+        text-align: center;
+        line-height: 50px;
+        height: 50px;
+        margin-top: .95rem;
+    }
+    .extraBox{
+        width: 100%;
+        height: 5.3rem;
+        margin-top: 5px;
+    }
+    .flex-normal{
+        width: 78%;
+        margin: 0 auto;
+    }
+    .extraBox ul li {
+        width: 28%;
+        margin-top: 8px;
+        text-align: center;
+    }
+    .circle-flex{
+        margin:  0 auto;
+    }
+    .extraBox ul li{
+
+    }
+</style>
+</html>

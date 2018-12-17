@@ -1,3 +1,12 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,th,td,table,textarea,select{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+th,em{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+img,a img{border:0;}
+html{
+    font-size: 37.5px;
+}
 ul,span,input{
     list-style: none;
     padding: 0;
@@ -30,4 +39,37 @@ input{
     border-radius: 12px;
     color: #ADCCE8;
     font-size: .44rem;
+}
+.circle-flex{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #EEEEEE;
+}
+.flex-normal{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.little-font{
+    font-size: .35rem;
+}
+.colorNum1{
+    color: #FFA269;
+}
+.colorNum2{
+    color: #E64461;
+}
+.boldNum{
+    font-weight: bold;
+}
+.bottom-border{
+    border-bottom: 1px solid #EEEEEE;
+}
+.energi{
+    width: 50%;
+    height: 10px;
+    background: #3CD5AF;
+    display: block;
 }
