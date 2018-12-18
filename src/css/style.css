@@ -1,35 +1,67 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,th,td,table,textarea,select{margin:0;padding:0;}
-h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
-th,em{font-style:normal;font-weight:normal;}
-ol,ul{list-style:none;}
-table{border-collapse:collapse;border-spacing:0;}
-img,a img{border:0;}
-html{
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td, table, textarea, select {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+th, em {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img, a img {
+    border: 0;
+}
+
+html {
     font-size: 37.5px;
 }
-ul,span,input{
+
+ul, span, input {
     list-style: none;
     padding: 0;
-    margin:0;
+    margin: 0;
     outline: medium;
 }
-ul,li{ padding:0;margin:0;list-style:none}
-input{
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+input {
     font-size: .44rem;
     text-indent: 0;
     background: transparent;
     border: 0 none;
-    resize:none;
-    outline:none;  /*清除选中效果的默认蓝色边框 */
-    -webkit-appearance:none;  /*清除浏览器默认的样式 */
-    line-height: normal;   //光标问题
+    resize: none;
+    outline: none; /*清除选中效果的默认蓝色边框 */
+    -webkit-appearance: none; /*清除浏览器默认的样式 */
+    line-height: normal;
+/ / 光标问题
 }
-.btn-Container{
+
+.btn-Container {
     width: 100%;
-    bottom:50px;
-    position:fixed;
+    bottom: 50px;
+    position: fixed;
 }
-.btnBottom{
+
+.btnBottom {
     display: block;
     height: 50px;
     line-height: 50px;
@@ -40,52 +72,69 @@ input{
     color: #ADCCE8;
     font-size: .44rem;
 }
-.circle-flex{
+
+.circle-flex {
     display: block;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 1px solid #EEEEEE;
 }
-.flex-normal{
+
+.flex-normal {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.little-font{
+
+.little-font {
     font-size: .35rem;
 }
-.colorNum1{
+
+.colorNum1 {
     color: #FFA269;
 }
-.colorNum2{
+
+.colorNum2 {
     color: #E64461;
 }
-.boldNum{
+
+.boldNum {
     font-weight: bold;
 }
-.bottom-border{
+
+.bottom-border {
     border-bottom: 1px solid #EEEEEE;
 }
-.energi{
+
+.energi {
     width: 3.44rem;
-    height: 12px;
+    height: 15px;
     background: #3CD5AF;
     display: block;
+    text-align: center;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-weight: bold
 }
-.block{
+
+.block {
     display: block;
 }
-.leftFloat{
+
+.leftFloat {
     float: left;
 }
-.rightFloat{
+
+.rightFloat {
     float: right;
 }
-.clearBoth{
+
+.clearBoth {
     clear: both;
 }
-.rightIcon{
+
+.rightIcon {
     display: block;
     width: 7px;
     height: 7px;
@@ -93,63 +142,87 @@ input{
     border-right: 1px solid #9B9B9B;
     transform: rotate(45deg);
 }
-.margin-right{
+
+.margin-right {
     margin-right: 20px;
 }
-.margin-left{
+
+.margin-left {
     margin-left: 20px;
 }
-.text-align-right{
+
+.text-align-right {
     text-align: right;
 }
-.btnColor{
+.text-align-center {
+    text-align: center;
+}
+.btnColor {
     color: #ffffff;
 }
-.tiniText{
+
+.tiniText {
     font-size: .3rem;
     color: #5092CE;
 }
-.clearLineHeight{
+
+.clearLineHeight {
     line-height: 28px;
 }
-.clearBeanColor{
+
+.clearBeanColor {
     color: #666666;
 }
-.clearBeanColor2{
+
+.clearBeanColor2 {
     color: #92E7D2;
 }
-.fiftyPercentWidth{
+
+.fiftyPercentWidth {
     width: 50%;
 }
-.allWidth{
+
+.allWidth {
     width: 100%;
 }
-.tabelCenter{
+
+.tabelCenter {
     margin: 0 auto;
     width: 90%;
 }
-.tableLineHeight{
+
+.tableLineHeight {
     line-height: 53px;
 }
-.tableLineHeight thead th{
+
+.tableLineHeight thead th {
     font-weight: bold;
 }
-.tableLineHeight tbody tr{
-    text-align: center;font-size: .35rem
+
+.tableLineHeight tbody tr {
+    text-align: center;
+    font-size: .35rem
 }
-.boldText{
+
+.boldText {
     font-weight: bold;
 }
-.colorFFF{
+
+.colorFFF {
     color: #ffffff;
 }
-.changeLine{
+
+.changeLine {
     white-space: pre-wrap;
 }
-.btnTextWrap{
-    word-break:normal;white-space:pre-wrap;overflow:hidden;
+
+.btnTextWrap {
+    word-break: normal;
+    white-space: pre-wrap;
+    overflow: hidden;
 }
-.singDateBtn1{
+
+.singDateBtn1 {
     width: 20%;
     float: right;
     margin-right: .85rem;
@@ -158,7 +231,8 @@ input{
     margin-top: 1.55rem;
     border-radius: 7px;
 }
-.singDateBtn1 span{
+
+.singDateBtn1 span {
     width: 59%;
     display: block;
     margin-left: 19px;
