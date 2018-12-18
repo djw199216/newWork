@@ -112,3 +112,55 @@ input{
 .clearLineHeight{
     line-height: 28px;
 }
+.clearBeanColor{
+    color: #666666;
+}
+.clearBeanColor2{
+    color: #92E7D2;
+}
+.fiftyPercentWidth{
+    width: 50%;
+}
+.allWidth{
+    width: 100%;
+}
+.tabelCenter{
+    margin: 0 auto;
+    width: 90%;
+}
+.tableLineHeight{
+    line-height: 53px;
+}
+.tableLineHeight thead th{
+    font-weight: bold;
+}
+.tableLineHeight tbody tr{
+    text-align: center;font-size: .35rem
+}
+.boldText{
+    font-weight: bold;
+}
+.colorFFF{
+    color: #ffffff;
+}
+.changeLine{
+    white-space: pre-wrap;
+}
+.btnTextWrap{
+    word-break:normal;white-space:pre-wrap;overflow:hidden;
+}
+.singDateBtn1{
+    width: 20%;
+    float: right;
+    margin-right: .85rem;
+    background: #E64461;
+    height: 50px;
+    margin-top: 1.55rem;
+    border-radius: 7px;
+}
+.singDateBtn1 span{
+    width: 59%;
+    display: block;
+    margin-left: 19px;
+    margin-top: 3px;
+}
