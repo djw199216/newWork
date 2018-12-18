@@ -151,12 +151,25 @@ input {
     margin-left: 20px;
 }
 
+.margin-top {
+    margin-top: 5px;
+}
+
+.tiniMarginLeft {
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.energiWidth{
+    width: 83px;
+}
 .text-align-right {
     text-align: right;
 }
+
 .text-align-center {
     text-align: center;
 }
+
 .btnColor {
     color: #ffffff;
 }

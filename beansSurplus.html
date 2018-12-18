@@ -27,11 +27,16 @@
         </div>
     </div>
     <div class="exchangeBeans">
-        <div>
-            <ul class="energiUl">
-                <li>积分余额：</li>
-                <li><span class="energi">1200</span></li>
-                <li><span class="rightIcon"></span></li>
+        <div class="exchangeBeansDiv">
+            <ul class="energiUl margin-left">
+                <li class="energiWidth">积分余额：</li>
+                <li><span class="energi margin-top">1200</span></li>
+                <li><span class="rightIcon tiniMarginLeft"></span></li>
+            </ul>
+            <ul class="energiUl margin-left">
+                <li class="energiWidth text-align-right">能量：</li>
+                <li><span class="energi margin-top">1200</span></li>
+                <li><span class="rightIcon tiniMarginLeft"></span></li>
             </ul>
         </div>
         <div class="singDateBtn1">
@@ -73,6 +78,7 @@
     .beansSurplus {
         font-size: .44rem;
     }
+
     /*中间层*/
     .beansSurplus .Beans {
         width: 100%;
@@ -110,8 +116,25 @@
     .beansSurplus .energiUl li {
         float: left;
     }
-    .singDateBtn1{
-        margin-top: 0;
+
+    .singDateBtn1 {
+        margin-top: .54rem;
         font-size: .35rem;
+    }
+
+    .jiefnyue {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .beansSurplus .exchangeBeans .exchangeBeansDiv {
+        float: left;
+        height: 100%;
+        width: 267px;
+    }
+
+    .beansSurplus .exchangeBeans .exchangeBeansDiv ul {
+        height: 10%;
+        margin-top: 20px;
     }
 </style>

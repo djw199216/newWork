@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd07307a-8b1b-4b5e-8ad4-33a49cded791" name="默认的" comment="">
+    <list default="true" readonly="true" id="cd07307a-8b1b-4b5e-8ad4-33a49cded791" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beansSurplus.html" afterPath="$PROJECT_DIR$/beansSurplus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,12 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="isLogin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/isLogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="162" column="4" lean-forward="true" selection-start-line="162" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
+            <state relative-caret-position="3726">
+              <caret line="162" column="4" lean-forward="false" selection-start-line="162" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -28,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beansSurplus.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beansSurplus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/beansSurplus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1495">
-              <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -43,8 +46,8 @@
       <file leaf-file-name="personalCenter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personalCenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+            <state relative-caret-position="577">
+              <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -60,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
+            <state relative-caret-position="462">
+              <caret line="170" column="1" lean-forward="true" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -92,6 +95,7 @@
       <find>text-align-c</find>
       <find>energiUl</find>
       <find>.personalCenter .Beans .beansUl li</find>
+      <find>.singDateBtn1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +107,9 @@
         <option value="$PROJECT_DIR$/integralBeans.html" />
         <option value="$PROJECT_DIR$/isLogin.html" />
         <option value="$PROJECT_DIR$/personalCenter.html" />
-        <option value="$PROJECT_DIR$/src/css/style.css" />
+        <option value="$PROJECT_DIR$/../freeWork/newWork/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/beansSurplus.html" />
+        <option value="$PROJECT_DIR$/src/css/style.css" />
       </list>
     </option>
   </component>
@@ -161,7 +166,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freeWork/newWork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,6 +185,7 @@
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\dlx\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -189,6 +195,8 @@
       <option name="presentableId" value="Default" />
       <updated>1545024024344</updated>
       <workItem from="1545095814722" duration="10461000" />
+      <workItem from="1545111039703" duration="336000" />
+      <workItem from="1545111394850" duration="1785000" />
     </task>
     <task id="LOCAL-00001" summary="已登录页面">
       <created>1545098284716</created>
@@ -229,7 +237,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10461000" />
+    <option name="totallyTimeSpent" value="12582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -237,21 +245,21 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17071882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22665147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -300,11 +308,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/isLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="162" column="4" lean-forward="false" selection-start-line="162" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/comm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3611">
+          <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beansSurplus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="162" column="4" lean-forward="true" selection-start-line="162" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/comm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3611">
+          <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beansSurplus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1702">
+          <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -320,45 +415,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="25" column="86" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="86" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/isLogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="162" column="4" lean-forward="true" selection-start-line="162" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
+        <state relative-caret-position="3726">
+          <caret line="162" column="4" lean-forward="false" selection-start-line="162" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../freeWork/newWork/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7429">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/personalCenter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        <state relative-caret-position="577">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/beansSurplus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="170" column="1" lean-forward="true" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
