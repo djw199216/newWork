@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signToday</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="signToday">
+    <div class="sign-success-header bottom-border">
+        <p class="allWidth boldText colorFFF text-align-center">今日已签到</p>
+        <p class="allWidth text-align-center colorFFF">能量：2448</p>
+        <p class="allWidth text-align-center colorFFF">已连续签到25天，再签到10天能量翻倍</p>
+    </div>
+    <div class="sign-success-date bottom-border">
+        <div class="success-date">
+            <div class="allWidth">
+                <p>签到日历（十一月）</p>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <div class="sign-success-label allWidth">
+        <div class="success-label">
+            <p style="font-size: .3rem" class="boldText"><img src="src/img/star.png" alt="" style="vertical-align: bottom">&nbsp;&nbsp;&nbsp;每签到一次奖励5积分连续签到10天&nbsp;额外奖励30积分。</p>
+        </div>
+    </div>
+</div>
+</body>
+<style lang="scss">
+    .signToday{
+        width: 100%;
+        font-size: .44rem;
+    }
+    .signToday .sign-success-header{
+        height: 90px;
+        width: 100%;
+        background: #FFA269;
+        padding-top: 25px;
+    }
+    .signToday .sign-success-date{
+        height: 200px;
+        width: 100%;
+    }
+    .signToday .sign-success-date .success-date{
+        width: 85%;
+        margin: 0 auto;
+        height: 80%;
+    }
+    .signToday .sign-success-label{
+        padding-top: 10px;
+    }
+    .signToday .sign-success-label .success-label{
+        width: 85%;
+        margin: 0 auto;
+        height: 100px;
+    }
+</style>
+</html>

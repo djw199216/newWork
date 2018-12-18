@@ -228,7 +228,9 @@ div{
 .allWidth {
     width: 100%;
 }
-
+.allWidth p{
+    margin-top: 10px;
+}
 .tabelCenter {
     margin: 0 auto;
     width: 90%;

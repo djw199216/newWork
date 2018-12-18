@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="cd07307a-8b1b-4b5e-8ad4-33a49cded791" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bankCard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signToday.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extractBeans.html" afterPath="$PROJECT_DIR$/extractBeans.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isLogin.html" afterPath="$PROJECT_DIR$/isLogin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signSuccess.html" afterPath="$PROJECT_DIR$/signSuccess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,6 +20,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="isLogin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/isLogin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signToday.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/signToday.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1205#1211#0" expanded="true" />
+                <element signature="e#1211#1217#0" expanded="true" />
+                <element signature="e#1217#1223#0" expanded="true" />
+                <element signature="e#1240#1246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signSuccess.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/signSuccess.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+              <folding>
+                <element signature="e#694#700#0" expanded="true" />
+                <element signature="e#700#706#0" expanded="true" />
+                <element signature="e#708#714#0" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1207#1213#0" expanded="true" />
+                <element signature="e#1213#1219#0" expanded="true" />
+                <element signature="e#1219#1225#0" expanded="true" />
+                <element signature="e#1242#1248#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="extractSuccess.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extractSuccess.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,71 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="informationAuthentication.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/informationAuthentication.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extractBeans.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractBeans.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bankCard.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bankCard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="13" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comm.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/comm.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2772">
-              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="231" column="21" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -139,6 +128,8 @@
       <find>.btn-Container</find>
       <find>testNum</find>
       <find>border-bottom</find>
+      <find>.isLoginContainer .titleName .nameUl li:first-child</find>
+      <find>.signToday .sign-success-header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,17 +139,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/integralBeans.html" />
-        <option value="$PROJECT_DIR$/isLogin.html" />
         <option value="$PROJECT_DIR$/personalCenter.html" />
         <option value="$PROJECT_DIR$/../freeWork/newWork/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/beansSurplus.html" />
-        <option value="$PROJECT_DIR$/signSuccess.html" />
         <option value="$PROJECT_DIR$/extractSuccess.html" />
         <option value="$PROJECT_DIR$/TransformationSuccess.html" />
-        <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/bankCard.html" />
         <option value="$PROJECT_DIR$/informationAuthentication.html" />
         <option value="$PROJECT_DIR$/extractBeans.html" />
+        <option value="$PROJECT_DIR$/isLogin.html" />
+        <option value="$PROJECT_DIR$/yiQianDao.html" />
+        <option value="$PROJECT_DIR$/src/css/style.css" />
+        <option value="$PROJECT_DIR$/signToday.html" />
+        <option value="$PROJECT_DIR$/signSuccess.html" />
       </list>
     </option>
   </component>
@@ -268,7 +261,7 @@
       <updated>1545024024344</updated>
       <workItem from="1545095814722" duration="10461000" />
       <workItem from="1545111039703" duration="336000" />
-      <workItem from="1545111394850" duration="9616000" />
+      <workItem from="1545111394850" duration="10447000" />
     </task>
     <task id="LOCAL-00001" summary="已登录页面">
       <created>1545098284716</created>
@@ -309,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20413000" />
+    <option name="totallyTimeSpent" value="21244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -489,39 +482,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3659">
-          <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personalCenter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-621">
           <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signSuccess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#694#700#0" expanded="true" />
-            <element signature="e#700#706#0" expanded="true" />
-            <element signature="e#708#714#0" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1208#1214#0" expanded="true" />
-            <element signature="e#1214#1220#0" expanded="true" />
-            <element signature="e#1220#1226#0" expanded="true" />
-            <element signature="e#1242#1248#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,6 +506,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/extractBeans.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bankCard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/extractSuccess.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -548,6 +537,22 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informationAuthentication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -561,43 +566,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2772">
-          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="231" column="21" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/informationAuthentication.html">
+    <entry file="file://$PROJECT_DIR$/signToday.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="295">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1205#1211#0" expanded="true" />
+            <element signature="e#1211#1217#0" expanded="true" />
+            <element signature="e#1217#1223#0" expanded="true" />
+            <element signature="e#1240#1246#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractBeans.html">
+    <entry file="file://$PROJECT_DIR$/signSuccess.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bankCard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="276">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="e#694#700#0" expanded="true" />
+            <element signature="e#700#706#0" expanded="true" />
+            <element signature="e#708#714#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1207#1213#0" expanded="true" />
+            <element signature="e#1213#1219#0" expanded="true" />
+            <element signature="e#1219#1225#0" expanded="true" />
+            <element signature="e#1242#1248#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
