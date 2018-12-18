@@ -73,6 +73,12 @@ div{
 .btnBottom{
     width: 90%;
 }
+.lefTit{
+    text-align: right;
+    display: block;
+    width: 90px;
+    float: left;
+}
 .widthCenter{
     width: 90%;
     margin: 0 auto;
