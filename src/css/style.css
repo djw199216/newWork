@@ -79,6 +79,9 @@ input{
 .leftFloat{
     float: left;
 }
+.rightFloat{
+    float: right;
+}
 .clearBoth{
     clear: both;
 }
@@ -89,4 +92,23 @@ input{
     border-top: 1px solid #9B9B9B;
     border-right: 1px solid #9B9B9B;
     transform: rotate(45deg);
+}
+.margin-right{
+    margin-right: 20px;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.text-align-right{
+    text-align: right;
+}
+.btnColor{
+    color: #ffffff;
+}
+.tiniText{
+    font-size: .3rem;
+    color: #5092CE;
+}
+.clearLineHeight{
+    line-height: 28px;
 }
