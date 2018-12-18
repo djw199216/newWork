@@ -18,8 +18,14 @@
             <div class="nameUl">
                 <ul>
                     <li>张三丰</li>
-                    <li><span>能量值：<span class="energi"></span></span><span class="rightIcon"></span></li>
-                    <li>总金豆：<span class="colorNum1 boldNum">5000</span></li>
+                    <li>
+                        <ul class="energiUl">
+                            <li>能量值：</li>
+                            <li><span class="energi" style="text-align: center;line-height: 12px;color: #FFFFFF;font-weight: bold">1200</span></li>
+                            <li><span class="rightIcon"></span></li>
+                        </ul>
+                    </li>
+                    <li class="clearBoth">总金豆：<span class="colorNum1 boldNum">5000</span></li>
                 </ul>
             </div>
         </div>
@@ -76,11 +82,15 @@
         height: 60px;
         border-radius: 50%;
         border: 1px solid #EEEEEE;
+        margin-top: 10px;
     }
     .isLoginContainer .titleName .nameUl{
         margin-left: 20px;
+        width: 80%;
     }
-
+    .isLoginContainer .titleName .nameUl>ul>li{
+        margin-top: 10px;
+    }
     .isLoginContainer .titleName .nameUl li:first-child{
         font-weight: bold;
     }
@@ -94,13 +104,13 @@
     /*中间层*/
     .isLoginContainer .Beans{
         width: 100%;
-        height:3.25rem;
+        height:4.25rem;
         position: relative;
     }
     .isLoginContainer .Beans .beansFlex{
         width: 50%;
         float: left;
-        margin-left: 50px;
+        margin-left: 56px;
         margin-top: 20px;
     }
     .isLoginContainer .Beans .beansFlex .beansUl{
@@ -110,7 +120,7 @@
         flex-wrap: wrap;
     }
     .isLoginContainer .Beans .beansUl li{
-        width: 50%;
+        margin-top: 20px;
     }
     .isLoginContainer .Beans .beansUl li p:nth-child(2){
         font-size: .35rem;
@@ -118,7 +128,7 @@
     .singDateBtn{
         width: 20%;
         float: right;
-        margin-right: .95rem;
+        margin-right: .85rem;
     }
     .singDateBtn span{
         width: 100%;
@@ -128,7 +138,7 @@
         text-align: center;
         line-height: 50px;
         height: 50px;
-        margin-top: .95rem;
+        margin-top: 1.55rem;
     }
     .extraBox{
         width: 100%;
@@ -149,6 +159,12 @@
     }
     .extraBox ul li{
 
+    }
+    .energiUl li{
+        float: left;
+    }
+    .rightIcon{
+        margin-left: 30px;
     }
 </style>
 </html>

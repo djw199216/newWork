@@ -68,8 +68,25 @@ input{
     border-bottom: 1px solid #EEEEEE;
 }
 .energi{
-    width: 50%;
-    height: 10px;
+    width: 3.44rem;
+    height: 12px;
     background: #3CD5AF;
     display: block;
+}
+.block{
+    display: block;
+}
+.leftFloat{
+    float: left;
+}
+.clearBoth{
+    clear: both;
+}
+.rightIcon{
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-top: 1px solid #9B9B9B;
+    border-right: 1px solid #9B9B9B;
+    transform: rotate(45deg);
 }
