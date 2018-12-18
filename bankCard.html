@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>informationAuthentication</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -12,23 +12,24 @@
     <script src="bundle.js" charset="utf-8"></script>
 </head>
 <body>
-<div class="extractBeans">
+<div class="informationAuthentication">
     <ul class="toTop">
-        <li class="phoneNum">
-            <span class="lefTit">当前可提金豆：</span>
-            <span class="colorNum1 block rightFloat margin-right">800</span>
+        <li class="testNum">
+            <span class="lefTit">持卡人：</span>
+            <span>张三丰</span>
         </li>
         <li class="testNum">
-            <span class="lefTit">提取：</span>
-            <input type="text" placeholder="输入提取金豆数" class="text-align-right rightFloat margin-right" style="height: 100%">
+            <span class="lefTit">银行卡：</span>
+            <span>6222222222222222</span>
         </li>
         <li class="testNum">
-            <span class="rightFloat margin-right tiniText clearLineHeight">全部提取</span>
+            <span class="lefTit">开户行：</span>
+            <span>广发银行</span>
         </li>
     </ul>
 </div>
 <div class="btn-Container">
-    <span class="btnBottom btnColor">确认提取</span>
+    <span class="btnBottom btnColor">修改银行卡</span>
 </div>
 </body>
 <style lang="sass">
@@ -44,19 +45,8 @@
         color: #448ACA;
         position: absolute;
         right: 18px;
-    }
-    .lefTit{
-        width: 135px;
-    }
-    .toTop input{
-        font-size: .44rem;
-        text-indent: 0;
-        background: transparent;
-        border: 0 none;
-        resize:none;
-        outline:none;  /*清除选中效果的默认蓝色边框 */
-        -webkit-appearance:none;  /*清除浏览器默认的样式 */
-        line-height: normal;   //光标问题
+        height: 40px;
+        margin-top: 5px;
     }
     .toTop li{
         height: 50px;
@@ -65,6 +55,9 @@
     }
     .btnBottom{
         width: 90%;
+    }
+    .informationAuthentication .textnum{
+
     }
 </style>
 </html>
