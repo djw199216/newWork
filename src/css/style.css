@@ -283,3 +283,421 @@ div{
     margin-left: 19px;
     margin-top: 3px;
 }
+
+.signToday{
+    width: 100%;
+    font-size: .44rem;
+}
+.signToday .sign-success-header{
+    height: 90px;
+    width: 100%;
+    background: #FFA269;
+    padding-top: 25px;
+}
+.signToday .sign-success-date{
+    height: 200px;
+    width: 100%;
+}
+.signToday .sign-success-date .success-date{
+    width: 85%;
+    margin: 0 auto;
+    height: 80%;
+}
+.signToday .sign-success-label{
+    padding-top: 10px;
+}
+.signToday .sign-success-label .success-label{
+    width: 85%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.signSuccess{
+    width: 100%;
+    font-size: .44rem;
+}
+.signSuccess .sign-success-header{
+    height: 90px;
+    width: 100%;
+    background: #FFA269;
+    padding-top: 25px;
+}
+.signSuccess .sign-success-date{
+    height: 200px;
+    width: 100%;
+}
+.signSuccess .sign-success-date .success-date{
+    width: 85%;
+    margin: 0 auto;
+    height: 80%;
+}
+.signSuccess .sign-success-label{
+    padding-top: 10px;
+}
+.signSuccess .sign-success-label .success-label{
+    width: 85%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.isLoginContainer{
+    font-size: .44rem;
+}
+.isLoginContainer .titleName{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #EEEEEE ;
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.isLoginContainer .titleName .headPic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #EEEEEE;
+    margin-top: 10px;
+}
+.isLoginContainer .titleName .nameUl{
+    margin-left: 20px;
+    width: 80%;
+}
+.isLoginContainer .titleName .nameUl>ul>li{
+    margin-top: 10px;
+}
+.isLoginContainer .titleName .nameUl>ul>li:first-child{
+    font-weight: bold;
+}
+.isLoginContainer .titleName .nameUl li:not(:first-child){
+    font-size: .35rem;
+    margin-top: 3px;
+}
+
+.isLoginContainer .Beans{
+    width: 100%;
+    height:4.25rem;
+    position: relative;
+}
+.isLoginContainer .Beans .beansFlex{
+    width: 50%;
+    float: left;
+    margin-left: 56px;
+    margin-top: 20px;
+}
+.isLoginContainer .Beans .beansFlex .beansUl{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.isLoginContainer .Beans .beansUl li{
+    margin-top: 20px;
+}
+.isLoginContainer .Beans .beansUl li p:nth-child(2){
+    font-size: .35rem;
+}
+/*中间层*/
+.isLoginContainer .singDateBtn{
+    width: 20%;
+    float: right;
+    margin-right: .85rem;
+}
+.isLoginContainer .singDateBtn span{
+    width: 100%;
+    background: #E64461;
+    display: block;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    margin-top: 1.55rem;
+}
+.isLoginContainer .extraBox{
+    width: 100%;
+    height: 5.3rem;
+    margin-top: 5px;
+}
+.isLoginContainer .flex-normal{
+    width: 78%;
+    margin: 0 auto;
+}
+.isLoginContainer .extraBox ul li {
+    width: 28%;
+    margin-top: 8px;
+    text-align: center;
+}
+.isLoginContainer .circle-flex{
+    margin:  0 auto;
+}
+.isLoginContainer .energiUl li{
+    float: left;
+}
+.isLoginContainer .rightIcon{
+    margin-left: 19px;
+    margin-top: 3px;
+}
+
+.extractSuccess .extract-success{
+    height: 60px;
+    padding-top: 30px;
+}
+.extractSuccess .extract-success-num{
+}
+.extractSuccess .btnBottom{
+    width: 90%;
+}
+
+.TransformationSuccess .extract-success{
+    height: 60px;
+    padding-top: 30px;
+}
+.TransformationSuccess .extract-success-num{
+}
+
+.loginCon .toTop{
+    font-size: .44rem;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.loginCon .getMes{
+    color: #448ACA;
+    position: absolute;
+    right: 18px;
+}
+.loginCon .lefTit{
+    text-align: right;
+}
+.loginCon .toTop input{
+    font-size: .44rem;
+    text-indent: 0;
+    background: transparent;
+    border: 0 none;
+    resize:none;
+    outline:none;  /*清除选中效果的默认蓝色边框 */
+    -webkit-appearance:none;  /*清除浏览器默认的样式 */
+    line-height: normal;   //光标问题
+}
+.loginCon .testNum{
+    padding-left: 17px;
+}
+.loginCon .toTop li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.loginCon .btnBottom{
+    width: 90%;
+}
+
+.integralBeans .toTop{
+    font-size: .44rem;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.integralBeans .getMes{
+    color: #448ACA;
+    position: absolute;
+    right: 18px;
+}
+.integralBeans .lefTit{
+    text-align: right;
+}
+.integralBeans .toTop input{
+    font-size: .44rem;
+    text-indent: 0;
+    background: transparent;
+    border: 0 none;
+    resize:none;
+    outline:none;  /*清除选中效果的默认蓝色边框 */
+    -webkit-appearance:none;  /*清除浏览器默认的样式 */
+    line-height: normal;   //光标问题
+}
+.integralBeans .testNum{
+    padding-left: 17px;
+}
+.integralBeans .toTop li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.integralBeans .btnBottom{
+    width: 90%;
+}
+.informationAuthentication .toTop{
+    font-size: .44rem;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.informationAuthentication .getMes{
+    color: #448ACA;
+    position: absolute;
+    right: 18px;
+    height: 40px;
+    margin-top: 5px;
+}
+.informationAuthentication .testNum{
+    padding-left: 17px;
+}
+.informationAuthentication .toTop li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.informationAuthentication .btnBottom{
+    width: 90%;
+}
+
+.extractBeans .toTop{
+    font-size: .44rem;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.extractBeans .getMes{
+    color: #448ACA;
+    position: absolute;
+    right: 18px;
+}
+.extractBeans .lefTit{
+    width: 135px;
+}
+.extractBeans .toTop input{
+    font-size: .44rem;
+    text-indent: 0;
+    background: transparent;
+    border: 0 none;
+    resize:none;
+    outline:none;  /*清除选中效果的默认蓝色边框 */
+    -webkit-appearance:none;  /*清除浏览器默认的样式 */
+    line-height: normal;   //光标问题
+}
+.extractBeans .toTop li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.extractBeans .btnBottom{
+    width: 90%;
+}
+
+.personalCenter{
+    font-size: .44rem;
+}
+/*中间层*/
+.personalCenter .Beans{
+    width: 100%;
+    height:4.25rem;
+    position: relative;
+}
+.personalCenter .Beans .beansFlex{
+    width: 50%;
+    float: left;
+    margin-left: 77px;
+    margin-top: 20px;
+}
+.personalCenter .Beans .beansFlex .beansUl{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.personalCenter .Beans .beansUl li{
+    margin-top: 20px;
+    width: 50%;
+}
+.personalCenter .Beans .beansUl li p:nth-child(2){
+    font-size: .35rem;
+}
+
+.beansSurplus {
+    font-size: .44rem;
+}
+
+/*中间层*/
+.beansSurplus .Beans {
+    width: 100%;
+    height: 2.75rem;
+    position: relative;
+}
+
+.beansSurplus .Beans .beansFlex {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.beansSurplus .Beans .beansFlex .beansUl {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.beansSurplus .Beans .beansUl li {
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.beansSurplus .Beans .beansUl li p:nth-child(2) {
+    font-size: .35rem;
+}
+
+.beansSurplus .exchangeBeans {
+    height: 80px;
+}
+
+.beansSurplus .energiUl li {
+    float: left;
+}
+
+.beansSurplus .singDateBtn1 {
+    margin-top: .54rem;
+    font-size: .35rem;
+}
+
+.beansSurplus .jiefnyue {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.beansSurplus .exchangeBeans .exchangeBeansDiv {
+    float: left;
+    height: 100%;
+    width: 267px;
+}
+
+.beansSurplus .exchangeBeans .exchangeBeansDiv ul {
+    height: 10%;
+    margin-top: 20px;
+}
+.informationAuthentication .toTop{
+    font-size: .44rem;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.informationAuthentication .getMes{
+    color: #448ACA;
+    position: absolute;
+    right: 18px;
+    height: 40px;
+    margin-top: 5px;
+}
+.informationAuthentication .toTop li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.informationAuthentication .btnBottom{
+    width: 90%;
+}
