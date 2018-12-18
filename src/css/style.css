@@ -29,7 +29,9 @@ img, a img {
 html {
     font-size: 37.5px;
 }
-
+body{
+    background: #F0F0F0;
+}
 ul, span, input {
     list-style: none;
     padding: 0;
@@ -54,11 +56,30 @@ input {
     line-height: normal;
 / / 光标问题
 }
+.normalFont{
+    font-size: .44rem;
+}
+.greenText{
+    color: #3AD3AF;
+}
+.ul-liHeightBorder li{
+    height: 54px;
+    line-height: 54px;
+    border-bottom: 1px solid #EEEEEE ;
+}
+div{
+    background: #ffffff;
+}
+.widthCenter{
+    width: 90%;
+    margin: 0 auto;
+}
 
 .btn-Container {
     width: 100%;
     bottom: 50px;
     position: fixed;
+    background: #F0F0F0;
 }
 
 .btnBottom {
