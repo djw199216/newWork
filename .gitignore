@@ -6,3 +6,6 @@ src/js/calendar.js
 src/js/jqmobi.js
 signSuccess.html
 signToday.html
+dist
+testGit
+style.css
