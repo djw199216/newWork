@@ -3,112 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="src/css/calendar.css" />
-    <link rel="stylesheet" type="text/css" href="src/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/calendar.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css"/>
 </head>
 <body>
-    <div class="signSuccess">
-        <div class="sign-success-header bottom-border">
-            <p class="allWidth boldText colorFFF text-align-center">签到成功</p>
-            <p class="allWidth text-align-center colorFFF">恭喜您获得&nbsp;&nbsp;金豆&nbsp;X2</p>
-        </div>
-        <div class="sign-success-date bottom-border">
-            <div class="success-date">
-                <div class="allWidth">
-                    <p>签到日历（十一月）</p>
-                </div>
-                <div class="data-container widthCenter">
-                    <div class="wrap">
-                        <ul class="week-f">
-                            <li>一</li>
-                            <li>二</li>
-                            <li>三</li>
-                            <li>四</li>
-                            <li>五</li>
-                            <li class="wk">六</li>
-                            <li class="wk">日</li>
-                        </ul>
-
-                        <div id="calendar"></div>
-
-                        <P class="act">
-                            <button id="prevMonth">上一月</button>
-                            <button id="nextMonth">下一月</button>
-                        </P>
-                    </div>
-                    <!--<ul class="flex-normal">-->
-                        <!--<li class="date-color">Su</li>-->
-                        <!--<li>Su</li>-->
-                        <!--<li>Su</li>-->
-                        <!--<li>Su</li>-->
-                        <!--<li>Su</li>-->
-                        <!--<li>Su</li>-->
-                        <!--<li>Su</li>-->
-                    <!--</ul>-->
-                </div>
+<div class="signSuccess">
+    <div class="sign-success-header bottom-border">
+        <p class="allWidth boldText colorFFF text-align-center">签到成功</p>
+        <p class="allWidth text-align-center colorFFF">恭喜您获得&nbsp;&nbsp;金豆&nbsp;X2</p>
+    </div>
+    <div class="sign-success-date bottom-border">
+        <div class="success-date">
+            <div class="allWidth">
+                <p>签到日历（十一月）</p>
             </div>
-        </div>
-        <div class="sign-success-label allWidth">
-            <div class="success-label">
-                <p style="font-size: .3rem" class="boldText"><img src="src/img/star.png" alt="" style="vertical-align: bottom">&nbsp;&nbsp;&nbsp;每签到一次奖励5积分连续签到10天&nbsp;额外奖励30积分。</p>
+            <div class="data-container widthCenter">
+                <div class="wrap">
+                    <ul class="week-f">
+                        <li class="date-color" style="margin-left: 0">Su</li>
+                        <li>Mo</li>
+                        <li>Tu</li>
+                        <li>We</li>
+                        <li>Th</li>
+                        <li>Fr</li>
+                        <li>Sa</li>
+                    </ul>
+
+                    <div id="calendar">
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="sign-success-label allWidth">
+        <div class="success-label">
+            <p style="font-size: .3rem" class="boldText"><img src="src/img/star.png" alt=""
+                                                              style="vertical-align: bottom">&nbsp;&nbsp;&nbsp;每签到一次奖励5积分连续签到10天&nbsp;额外奖励30积分。
+            </p>
+        </div>
+    </div>
+</div>
 </body>
-<style lang="scss">
-    .signSuccess .sign-success-date .success-date .data-container{
-        height: 200px;
-    }
-    .signSuccess .sign-success-date .success-date .data-container .flex-normal>li{
-        color: #ffffff;
-        text-align: center;
-    }
-    /*.act {*/
-        /*margin-top: 85px;*/
-        /*margin-bottom: 20px;*/
-        /*text-align: center;*/
-    /*}*/
-
-    /*.act button {*/
-        /*margin-right: 30px;*/
-    /*}*/
-</style>
-<script src="src/js/calendar.js"></script>
 <script src="src/js/jqmobi.js"></script>
-<script>
-    (function() {
-        calendarIns = new calendar.calendar( {
-            count: 4,
-            selectDate: new Date(),
-            selectDateName: '入住',
-            minDate: new Date(),
-            maxDate: new Date( +new Date() + 100 * 86400000 ),
-            isShowHoliday: true,
-            isShowWeek: false
-        } );
-
-        $.bind( calendarIns, 'afterSelectDate', function( event ) {
-            console.log( 'after select date' );
-            var curItem = event.curItem,
-                date = event.date,
-                dateName = event.dateName;
-
-            calendarIns.setSelectDate( date );
-        } );
-
-        $( '#prevMonth' ).on( 'click', function() {
-            calendarIns.prevMonth();
-        } );
-
-        $( '#nextMonth' ).on( 'click', function() {
-            calendarIns.nextMonth();
-        } );
-    })();
-</script>
+<script src="src/js/calendar.js"></script>
 </html>
