@@ -1,2 +1,8 @@
 node_modules/
 dist/
+src/css/calendar.css
+src/css/reset.css
+src/js/calendar.js
+src/js/jqmobi.js
+signSuccess.html
+signToday.html
