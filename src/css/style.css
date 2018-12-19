@@ -167,6 +167,26 @@ div{
     color: #FFFFFF;
     font-weight: bold
 }
+.energi3 {
+    width: 4.44rem;
+    height: 15px;
+    background: #FFA269;
+    display: block;
+    text-align: center;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-weight: bold
+}
+.energi2{
+    width: 2.2rem;
+    height: 15px;
+    background: #3CD5AF;
+    display: block;
+    text-align: center;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-weight: bold
+}
 
 .block {
     display: block;
@@ -192,7 +212,13 @@ div{
     border-right: 1px solid #9B9B9B;
     transform: rotate(45deg);
 }
-
+.energiTextColor{
+    color: #3CD5AF;;
+}
+.tiniFont{
+    font-size: .3rem;
+    line-height: 24px;
+}
 .margin-right {
     margin-right: 20px;
 }
