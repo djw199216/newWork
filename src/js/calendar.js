@@ -327,17 +327,13 @@
                 var curItem = $( this ),
                     date = curItem.data( 'date' ),
                     dateName = $( curItem.find( 'i' )[ 1 ] ).text();
-
                 //更新当前选中日期YYYY-MM-DD
                 me.selectDate = date;
-
-                if ( !curItem.hasClass( 'iv' ) ) {
-                    $.trigger( me, 'afterSelectDate', [ {
-                        date: date,
-                        dateName: dateName,
-                        curItem: curItem
-                    } ] );
-                }
+                $.trigger( me, 'afterSelectDate', [ {
+                    date: date,
+                    dateName: dateName,
+                    curItem: curItem
+                } ] );
             } );
         },
 
@@ -453,25 +449,24 @@
                 curSltItem = $( this.el[ 0 ].querySelector( 'li[data-date="' + date + '"]' ) );
 
             //先移到上次选中日期高亮
-            if ( lastSltItem.length ) {
-                var lastDateNameEl = $( lastSltItem.find( 'i' )[ 1 ] );
+            // if ( lastSltItem.length ) {
+            //     var lastDateNameEl = $( lastSltItem.find( 'i' )[ 1 ] );
 
-                lastSltItem.removeClass( 'cur' );
-                if ( !lastSltItem.hasClass( 'jr' ) ) {
-                    lastSltItem.removeClass( 'dl' );
-                    lastDateNameEl.text( '' );
-                }
-            }
+            //     lastSltItem.removeClass( 'cur' );
+            //     if ( !lastSltItem.hasClass( 'jr' ) ) {
+            //         lastSltItem.removeClass( 'dl' );
+            //         lastDateNameEl.text( '' );
+            //     }
+            // }
 
             //添加当前选中日期高亮
             if ( curSltItem.length ) {
                 var curDateNameEl = $( curSltItem.find( 'i' )[ 1 ] );
-
-                curSltItem.addClass( 'cur' );
-                if ( !curSltItem.hasClass( 'jr' ) ) {
-                    curSltItem.addClass( 'dl' );
-                    curDateNameEl.text( config.selectDateName );
-                }
+                curSltItem.addClass( 'h' );
+                // if ( !curSltItem.hasClass( 'jr' ) ) {
+                //     curSltItem.addClass( 'dl' );
+                //     curDateNameEl.text( config.selectDateName );
+                // }
             }
         },
 
@@ -516,7 +511,7 @@
     });
 
     $.bind(calendarIns, 'afterSelectDate', function (event) {
-        console.log('after select date');
+        console.log(event);
         var curItem = event.curItem,
             date = event.date,
             dateName = event.dateName;
